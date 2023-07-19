@@ -1,23 +1,23 @@
 /**
-    * @description      : 
-    * @author           : christian
-    * @group            : 
-    * @created          : 07/10/2021 - 21:07:52
-    * 
-    * MODIFICATION LOG
-    * - Version         : 1.0.0
-    * - Date            : 07/10/2021
-    * - Author          : christian
-    * - Modification    : 
+ * @description      : Todo simple
+ * @author           : christian shungu <christianshungu@gmail.com>
+ * @group            : 
+ * @created          : 07/10/2021 - 21:07:52
+ * @version          : 1.0.0
+ * 
+ * 
+ * MODIFICATION LOG
+ * - Version         : 1.0.0
+ * - Date            : 07/10/2021
+ * - Author          : christian
+ * - Modification    : 
 **/
 import "./sass/app.scss";
-import { favicon } from "./favicon.ico";
-import { logo } from "./logo.png";
 
-const app: HTMLDivElement | any = document.querySelector('.app');
+const app: HTMLDivElement | any = document.querySelector('.app-todos');
 const todoForm: HTMLFormElement | any = app.querySelector('form');
 const todoList: HTMLUListElement | any = app.querySelector('.todolist');
-const todoInput: HTMLInputElement | any = document.querySelector('.app form > input');
+const todoInput: HTMLInputElement | any = app.querySelector('form > input');
 const todoTasks: HTMLDivElement | any = app.querySelector('.todotasks');
 
 interface todoInterface {
